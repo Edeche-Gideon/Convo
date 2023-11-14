@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+/* .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.nav-header {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.nav-links {
+    height: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-link {
+    margin-right: 100px;
+}
+.nav-link:hover {
+    color: red;
+}
+.btn:hover {
+    background: yellow;
+
+}
+.log-in {
+    margin-right: 22px;
+
+}
+ .contact-link {
+    margin-left:auto ;
+    margin-right: 0;
+}
+
+.btn {
+    cursor: pointer;
+    padding:10px 32px ;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-center {
+    width: 90vw;
+    max-width: 1280px;
+    display: flex;
+    align-items: center; 
+}
+ .line-c {
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 100px;
+    height: 1p;
+ }
+
+
+ .webinar {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 10px;
+ }
+ .write > p {
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    margin-bottom:10px ;
+    position: relative;
+ }
+ .webinar-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: absolute;
+ }
+
+
+
+
+ @media (max-width:1075.98px) {
+    .nav-header {
+        margin-right: 150px;
+    }  
+ }
